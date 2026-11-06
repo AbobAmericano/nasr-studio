@@ -1,0 +1,21 @@
+[package]
+name = "obs-capture"
+description = "Screen and audio capture sources for obs-rs"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+obs-core = { path = "../obs-core" }
+scrap = { workspace = true }
+cpal = { workspace = true }
+crossbeam-channel = { workspace = true }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+parking_lot = { workspace = true }
+
+[target.'cfg(windows)'.dependencies]
+windows-sys = { version = "0.52", features = [
+    "Win32_Foundation",
+    "Win32_Graphics_Gdi",
+] }

@@ -1,0 +1,14 @@
+[package]
+name = "obs-encoder"
+description = "FFmpeg-backed H.264/AAC encoder and MP4 muxer for obs-rs"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+obs-core = { path = "../obs-core" }
+ffmpeg-next = { workspace = true }
+crossbeam-channel = { workspace = true }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+parking_lot = { workspace = true }

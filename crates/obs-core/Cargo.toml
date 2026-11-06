@@ -1,0 +1,17 @@
+[package]
+name = "obs-core"
+description = "Core traits, types, pipeline orchestration and frame clock for obs-rs"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+tokio = { workspace = true }
+crossbeam-channel = { workspace = true }
+parking_lot = { workspace = true }
+spin_sleep = { workspace = true }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+ringbuf = { workspace = true }

@@ -1,0 +1,17 @@
+[package]
+name = "obs-compositor"
+description = "wgpu-based GPU scene compositor for obs-rs"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+obs-core = { path = "../obs-core" }
+wgpu = { workspace = true }
+bytemuck = { workspace = true }
+pollster = { workspace = true }
+crossbeam-channel = { workspace = true }
+tracing = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+parking_lot = { workspace = true }
+image = { workspace = true }

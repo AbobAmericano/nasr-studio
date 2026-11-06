@@ -1,0 +1,4 @@
+[env]
+FFMPEG_DIR = "C:\\Users\\user\\AppData\\Local\\Microsoft\\WinGet\\Packages\\Gyan.FFmpeg.Shared_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-9.0.2-full_build-shared"
+LIBCLANG_PATH = "C:\\Program Files\\LLVM\\bin"
+BINDGEN_EXTRA_CLANG_ARGS = "-I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt\" -I\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\VC\\Tools\\MSVC\\14.29.30133\\include\" -I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\" -I\"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared\""
