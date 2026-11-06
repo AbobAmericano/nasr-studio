@@ -1,4 +1,4 @@
-# nasr studio (nsr studio)
+# nsr studio
 
 A rebuilt, ultra-lightweight harness and reimplementation of OBS Studio written in pure Rust.
 
@@ -59,17 +59,17 @@ The project is structured as a modular Cargo workspace:
 To build in release mode:
 
 ```bash
-cargo build --release -p nasr-studio
+cargo build --release -p nsr-studio
 ```
 
 To run the GUI:
 
 ```bash
 # Windows launcher
-.\run-nasr.bat
+.\run-nsr.bat
 
 # Or directly with Cargo
-cargo run --release -p nasr-studio
+cargo run --release -p nsr-studio
 ```
 
 ## Authors & Contributors

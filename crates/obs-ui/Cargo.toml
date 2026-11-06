@@ -1,5 +1,5 @@
 [package]
-name = "nasr-studio"
+name = "nsr-studio"
 version = "0.1.0"
 edition = "2024"
 authors = [
@@ -8,10 +8,10 @@ authors = [
 ]
 description = "A rebuilt, reverse-engineered harness of OBS Studio written in Rust"
 license = "GPL-3.0-or-later"
-default-run = "nasr-studio"
+default-run = "nsr-studio"
 
 [[bin]]
-name = "nasr-studio"
+name = "nsr-studio"
 path = "src/main.rs"
 
 [dependencies]
