@@ -4,6 +4,17 @@ A rebuilt, ultra-lightweight harness and reimplementation of OBS Studio written 
 
 Designed for high performance, zero-copy buffer pipelines, and minimal system resource footprint.
 
+## Screenshots
+
+### Main Studio Interface
+![Main Studio Interface](docs/screenshots/main-interface.jpg)
+
+### Settings Dialogs
+
+| Video Settings | Audio Settings |
+| :---: | :---: |
+| ![Video Settings](docs/screenshots/video-settings.png) | ![Audio Settings](docs/screenshots/audio-settings.png) |
+
 ## Features
 
 - **Ultra-Lightweight Resource Footprint**:

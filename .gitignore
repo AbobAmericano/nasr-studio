@@ -10,9 +10,12 @@ Cargo.lock
 *.aac
 *.wav
 *.yuv
-*.png
 out.txt
 err.txt
+
+# Documentation assets
+!docs/
+!docs/**
 
 # OS and IDE files
 .DS_Store
