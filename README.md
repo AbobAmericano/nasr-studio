@@ -56,6 +56,8 @@ The project is structured as a modular Cargo workspace:
 
 ### Building & Running
 
+Download: <> Code \ Download ZIP or Clone Repo
+
 To build in release mode:
 
 ```bash
